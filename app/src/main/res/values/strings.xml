@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Resepku</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_oopss">Oopss...</string>
+    <string name="str_something_went_wrong">Something went wrong...</string>
+    <string name="str_ingredients">Ingredients</string>
+    <string name="str_insructions">Insructions</string>
+    <string name="str_watch_video">Watch Video</string>
+    <string name="str_new_resep">Resep Terbaru</string>
+    <string name="str_categories">Categories</string>
+    <string name="str_good_morning">Good Morning</string>
+    <string name="str_name">Fajar Subeki</string>
+</resources>

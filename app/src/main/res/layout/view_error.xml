@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/error_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/img_empty"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_error"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/txt_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:text="@string/str_oopss"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/txt_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black_text"
+        android:layout_gravity="center"
+        android:text="@string/str_something_went_wrong"
+        android:textSize="18sp"/>
+
+
+</LinearLayout>
